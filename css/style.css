@@ -25,6 +25,27 @@ h1 {
   letter-spacing: 0.08em;
 }
 
+#status {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+}
+
+#restart-button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  background: #22c55e;
+  color: #052e16;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#restart-button:hover {
+  background: #4ade80;
+}
+
 #game-canvas {
   width: min(800px, 100%);
   height: auto;
